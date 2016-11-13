@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/line"
+    android:orientation="vertical"
+    android:showDividers="middle|end"
+    tools:context="com.itheima.galleryview.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:gravity="center_vertical"
+        android:onClick="gallery"
+        android:spacing="15dp"
+        android:text="Gallery"
+        android:textColor="#333333"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:gravity="center_vertical"
+        android:onClick="viewPager"
+        android:spacing="15dp"
+        android:text="ViewPager"
+        android:textColor="#333333"
+        android:textSize="25sp" />
+</LinearLayout>
